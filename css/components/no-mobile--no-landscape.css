@@ -17,3 +17,9 @@
         visibility: hidden;
     }
 }
+
+@media screen and (orientation: portrait) {
+    #no-landscape {
+      display: none;
+    }
+}
