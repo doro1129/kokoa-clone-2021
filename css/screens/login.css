@@ -80,7 +80,17 @@
   animation-delay: 2s;
 }
 
+@keyframes moveLogo {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 #splash-screen img {
   width: 340px;
   height: 340px;
+  animation: moveLogo 2s ease-in-out infinite;
 }

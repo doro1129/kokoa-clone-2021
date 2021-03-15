@@ -1,8 +1,7 @@
 .user-component {
   justify-content: space-between;
-}
-.user-component {
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -80,4 +79,8 @@
 .pin i {
   margin-left: 10px;
   opacity: 0.3;
+}
+
+.user-component:active {
+  background-color: var(--clicking-color);
 }

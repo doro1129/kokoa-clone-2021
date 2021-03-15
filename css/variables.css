@@ -1,8 +1,9 @@
 :root {
   --black: rgba(0, 0, 0, 0.95);
   --gray: rgba(210, 210, 210, 0.2);
-  --white: rgb(224, 224, 224, 0.9);
+  --white: rgba(224, 224, 224, 0.9);
   --orange: #ee6f1e;
+  --clicking-color: rgba(255, 127, 42, 0.6);
   --red: #c41e1f;
   --horizontal-space: 25px;
   --main-border: 1px solid var(--orange);

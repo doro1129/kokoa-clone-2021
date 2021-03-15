@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap');
 
 @import "reset.css";
 @import "variables.css";
@@ -25,7 +25,7 @@
 body {
   background-color: var(--black);
   color: var(--white);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Archivo', sans-serif;
 }
 
 .main-screen {
