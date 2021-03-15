@@ -28,6 +28,6 @@
     transform: rotateZ(360deg);
   }
 }
-.screen-header__icons .fa-cog:hover {
+.spinning-cog:hover {
   animation: rotateCog 1s linear infinite;
 }

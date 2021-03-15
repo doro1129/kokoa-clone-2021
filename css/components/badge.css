@@ -1,5 +1,5 @@
 .badge {
-  background-color: tomato;
+  background-color: var(--red);
   width: 30px;
   height: 30px;
   border-radius: 15px;
@@ -11,8 +11,12 @@
 }
 
 .badge--sm {
-  background-color: tomato;
+  background-color: var(--red);
   width: 6px;
   height: 6px;
   border-radius: 3px;
+}
+
+.no-answer {
+  opacity: 0;
 }
